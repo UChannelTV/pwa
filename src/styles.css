@@ -1,0 +1,31 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  background: #efdacb;
+  margin: 0;
+}
+
+mat-card {
+  margin: 15px;
+}
+  
+mat-input-container, mat-select {
+  width: 100%
+}
+  
+mat-card-title {
+  font-size: larger;
+}
+  
+mat-card-subtitle {
+  font-size: larger;
+}
+  
+mat-slider {
+  width: 90%;
+}
+
+mat-spinner {
+  color: #0000ff;
+}
+  
