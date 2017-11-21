@@ -1,4 +1,4 @@
-# UChannelTVApp - UChannelTV Progressive Web App
+# 優視頻道 UChannelTV App - UChannelTV Progressive Web App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
