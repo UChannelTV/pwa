@@ -6,6 +6,7 @@ import {
   MatGridListModule,
   MatIconModule, MatInputModule,
   MatListModule,
+  MatProgressBarModule, MatProgressSpinnerModule,
   MatSelectModule, MatSliderModule, MatSlideToggleModule, MatSnackBarModule,
   MatToolbarModule
 } from "@angular/material";
@@ -17,6 +18,7 @@ import {
     MatGridListModule,
     MatIconModule, MatInputModule,
     MatListModule,
+    MatProgressBarModule, MatProgressSpinnerModule,
     MatSelectModule, MatSliderModule, MatSlideToggleModule, MatSnackBarModule,
     MatToolbarModule
   ],
@@ -26,6 +28,7 @@ import {
     MatGridListModule,
     MatIconModule, MatInputModule,
     MatListModule,
+    MatProgressBarModule, MatProgressSpinnerModule,
     MatSelectModule, MatSliderModule, MatSlideToggleModule, MatSnackBarModule,
     MatToolbarModule
   ],
