@@ -6,9 +6,8 @@ import { GeolocationService } from "./geolocation.service";
 import { DataService } from "./data.service";
 
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { MatButtonModule, MatIconModule, MatInputModule, MatSelectModule, MatSliderModule,
-         MatToolbarModule, MatCardModule, MatSlideToggleModule,
-         MatSnackBarModule } from "@angular/material";
+import { CustomMaterialModule } from './custom/CustomMaterialModule';
+
 import 'hammerjs';
 import { Routes, RouterModule } from "@angular/router";
 import { ServiceWorkerModule } from "@angular/service-worker";
@@ -42,8 +41,7 @@ const routes : Routes = [
     RouterModule.forRoot(routes),
     FormsModule, HttpModule, ServiceWorkerModule,
     BrowserModule, BrowserAnimationsModule,
-    MatButtonModule, MatIconModule, MatInputModule, MatSelectModule, MatSliderModule,
-    MatToolbarModule, MatCardModule, MatSlideToggleModule, MatSnackBarModule
+    CustomMaterialModule
   ],
   providers: [GeolocationService, DataService],
   bootstrap: [AppComponent]
