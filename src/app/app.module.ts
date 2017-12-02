@@ -15,27 +15,18 @@ import { ServiceWorkerModule } from "@angular/service-worker";
 import { FormsModule } from "@angular/forms";
 import { HttpModule } from "@angular/http";
 
-import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-import { LiveStreamingComponent } from './live-streaming/live-streaming.component';
-import { ThankYouComponent } from './thank-you/thank-you.component';
 
 const routes : Routes = [
   //{ path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'live-streaming', component: LiveStreamingComponent },
-  { path: 'thank-you', component: ThankYouComponent },
+  { path: 'home', component: HomeComponent }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    HomeComponent,
-    LiveStreamingComponent,
-    ThankYouComponent
+    HomeComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
